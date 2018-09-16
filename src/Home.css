@@ -1,0 +1,33 @@
+.Home {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: url(media/galaxy.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.Home h2 {
+    font-size: 4rem;
+    padding: 10% 0;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    animation-duration: .5s
+}
+.Home h2:hover {
+    scale: 1.5;
+}
+
+.Home p {
+    color: #ffffffa9;
+    padding: 2rem;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.text-container {
+    background-color: #1d1d1da2;
+    border-radius: 4px;
+
+}

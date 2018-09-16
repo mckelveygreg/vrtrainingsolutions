@@ -1,0 +1,50 @@
+.About {
+    margin: 0 auto;
+    width: 100%;
+    background-color:#083754;
+}
+
+.About div {
+    margin: 0;
+    color: white;
+}
+.About h3 {
+    font-size: 1.7rem;
+    padding: 20px;
+}
+.About div p, li {
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.About div:nth-child(even) {
+    background: linear-gradient(to right, white, rgba(0,0,0,0));
+    text-align: right;
+    padding: 20px 150px 20px 300px;
+}
+.About div:nth-child(odd) {
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(0,0,0,0));
+    text-align: left;
+    padding: 20px 300px 20px 150px;
+}
+
+#quotes {
+    background: url(./media/Class_03.jpg);
+    background-size: cover;
+    height: 300px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+#quotes div {
+    height: 300px;
+    max-width: 900px;
+    padding: 20px;
+    text-align: right;
+}
+#quotes blockquote {
+    font-size: 2rem;
+    line-height: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
