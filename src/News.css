@@ -1,0 +1,14 @@
+#news {
+  margin: 50px auto;
+  background: url(media/tree-silhouette-sky.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.newsCard {
+  width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #FFFFFF55;
+  border-radius: 10px;
+}

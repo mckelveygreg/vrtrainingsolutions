@@ -1,3 +1,32 @@
+#Projects {
+    background: url(media/stars.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.project {
+    width: 800px;
+    display: grid;
+    grid-template: auto auto / auto auto;
+    margin: 20px auto;
+    grid-gap: 20px;
+}
+
+.project h3 {
+    grid-column: 1 / -1;
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+.project p {
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.ProjectsGallery {
+    margin: 0 auto;
+}
+
 .ProjectsGallery img {
   width: 200px;
   margin: 40px;
@@ -7,11 +36,3 @@
   transform: scale(1.5);
   margin: 0 auto;
 }
-
-.project {
-    display: flex;
-    width: 600px;
-    flex-direction: column;
-    margin: 0 auto;
-}
-

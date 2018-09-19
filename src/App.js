@@ -15,6 +15,9 @@ import {
 import About from "./About";
 import Home from "./Home";
 import Projects from "./Projects";
+import Management from './Management';
+import Board from './Board';
+import News from './News';
 // add other pages here
 
 library.add(faArrowLeft, faArrowRight);
@@ -37,6 +40,9 @@ class App extends Component {
           <Home />
           <About />
           <Projects />
+          <Management />
+          <Board />
+          <News />
             </div>
  
         </div>
