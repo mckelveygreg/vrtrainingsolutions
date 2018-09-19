@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./About.css";
 import "animate.css/animate.min.css";
 import Fade from 'react-reveal/Fade'; 
-import Reveal from 'react-reveal/Reveal';
+//import Reveal from 'react-reveal/Reveal';
 
 
 class About extends Component {

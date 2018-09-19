@@ -1,0 +1,17 @@
+.ProjectsGallery img {
+  width: 200px;
+  margin: 40px;
+}
+
+.ProjectsGallery img:hover {
+  transform: scale(1.5);
+  margin: 0 auto;
+}
+
+.project {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+

@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
-import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
+import "animate.css/animate.min.css"; // do i need this?
 
 import {
-  Route,
+  //Route,
   //NavLink,
-  HashRouter,
+  //HashRouter,
   BrowserRouter
 } from "react-router-dom";
-import { NavHashLink as NavLink } from 'react-router-hash-link';
+//import { NavHashLink as NavLink } from 'react-router-hash-link';
 import About from "./About";
 import Home from "./Home";
 import Projects from "./Projects";
 // add other pages here
+
+library.add(faArrowLeft, faArrowRight);
 class App extends Component {
   
   
